@@ -1,0 +1,127 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.stats {
+    margin-bottom: 1rem;
+}
+.stats li {
+    min-width: 5rem;
+}
+.stats li h3 {
+    font-size: .99rem;
+}
+.stats li h4 {
+    font-size: .75rem;
+}
+
+.links button {
+    font-family: 'Poppins', sans-serif;
+    min-width: 120px;
+    padding: .5rem;
+    border: 1px solid rgb(0 168 255);
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all .25s linear;
+}
+.links .follow,
+.links .view:hover {
+    background: -webkit-linear-gradient(left, rgb(0 168 255), rgb(185 0 255 / 94%));;
+    color: #FFF;
+}
+.links .view,
+.links .follow:hover{
+    background-color: transparent;
+    color: rgb(0 168 255);
+}
+
+@media screen and (max-width: 450px) {
+    .card {
+        display: block;
+    }
+    .infos {
+        margin-left: 0;
+        margin-top: 1.5rem;
+    }
+    .links button {
+        min-width: 100px;
+    }
+    .main{
+        width: 500px!important;
+    }
+}
+
+.bg-grey{
+    background-color: #f1f1f2;
+
+}
+.border-right{
+    border-right: 2px solid #f1f1f2;
+}
+.text-light{
+    color: #9d9d9d!important;
+}
+.justify-content-space-around{
+    justify-content: space-around;
+}
+.font-8{
+    font-size: 8px;
+    color: rgb(185 0 255 / 94%)!important;
+}
+.font-13{
+    font-size: 13px;
+    color: #00bcd5;
+}
+.text-blue{
+    color: rgb(185 0 255 / 94%)!important;
+}
+
+.font-12{
+    font-size: 12px;
+}
+.color-dark{
+    color: #626262;
+}
+.font-14{
+    font-size: 14px;
+}
+.circle i{
+    border: 1px solid rgb(185 0 255 / 94%);
+    border-radius: 50% ;
+    padding: 10px;
+}
+.circle i:hover{
+    border: 1px solid rgb(185 0 255 / 94%);
+    border-radius: 50% ;
+    padding: 10px;
+    background: rgb(185 0 255 / 94%);
+    color: white;
+}
+
+.check-tick{
+    line-height: 2;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.check-tick span{
+    font-size: 11px;
+    color: #8f8e8e;
+}
+.check-tick i{
+    border: 1px solid rgb(185 0 255 / 94%);
+    border-radius: 50% ;
+    padding: 10px;
+}
+
+.check-tick i:hover{
+    border: 1px solid rgb(185 0 255 / 94%);
+    border-radius: 50% ;
+    padding: 10px;
+    background: rgb(185 0 255 / 94%);
+    color: white;
+}
+
